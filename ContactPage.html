@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Addy's Custom Detailing</title>
+</head>
+<style>
+	
+	body {
+		margin: 0;
+		height: 1000px;
+		resize: both;
+	}
+
+
+	.Heading {font-family: 'Brush Script MT';
+		color: #ed9d07;
+		text-align: center;
+		background-color: rgba(0, 0, 0, .3);
+		font-weight: 100;
+		width: 100%;
+		margin-bottom: 0px;
+		font-size: 25px;
+		position: absolute;
+		top: 0px;
+		letter-spacing: 6px;
+		text-decoration-line: underline;
+		}
+
+	.stuff p {
+		text-decoration-line: underline;
+		font-family: 'Brush Script MT';
+		font-size: 35px;
+		text-align: left;
+		bottom: 100px;
+		left: 35px;
+		position: relative;
+		color: orange;
+		width: 262px;
+		border-style: solid;
+		border-color: orange;
+		border-radius: 10%;
+		background-color: none;
+	}
+
+
+
+	 /* --------------------This is for the text inside of the picture-------------------- */
+	.outside {
+		color: white;
+		text-align: center;
+		background-image: url('Pictures/enumclaw1.jpg');
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.inside {
+		position: relative;
+		top: 35px;
+	}
+
+	.inside p {
+		font-size: 20px;
+		position: relative;
+		top: 100px;
+	}
+
+	/* --------------------For buttons-------------------- */
+	.buttons {
+		font-size: 26px;
+		font-family: 'Arial';
+		color: white;
+		position: center;
+		height: 30px;
+		padding: none;
+		border: none;
+		background: none;
+	}
+
+	.buttons:hover {
+		cursor: pointer;
+	}
+
+	table {
+		margin: auto;
+		margin-bottom: 0px;
+		padding-top: 0px;
+	}
+
+	td {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.outside table {
+		position: relative;
+		bottom: 135px;
+		left: 600px;
+	}
+
+
+
+	/* --------------------For banner-------------------- */
+	.bottom {
+		text-align: center;
+		text-decoration-line: underline;
+		color: orange;
+		font-size: 20px;
+		background-color: #202020;
+		padding-top: 0px;
+		position: relative;
+		bottom: 27px;
+	}
+
+
+
+
+	/* --------------------For map picture-------------------- */
+	.bottombottom {
+		background-color: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bottombottom img{
+		width: 40%;
+		border-radius: 20px;
+		position: relative;
+		left: 100px;
+		top: 20px;
+		margin-bottom: 85px;
+		min-height: 300px;
+		min-width: 400px;
+	}
+
+
+	.contact-info {
+		width: 30%;
+		height: 19%;
+		font-size: 35px;
+		position: relative;
+		bottom: 430px;
+		left: 50%;
+		padding: 25px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+	}
+
+
+
+</style>
+
+
+
+<body>
+
+
+
+
+
+
+	<!-- Home page link script -->
+	<script type="text/javascript">
+		function homePage() {
+			window.location.href="HomePage.html";
+		}
+	</script>
+
+
+	<!-- Contact page link script  ******CHANGE LINK****** -->
+	<script type="text/javascript">
+		function galleryPage() {
+			window.location.href="GalleryPage.html";
+		}
+	</script>
+
+	
+
+	<!-- About page link script  ******CHANGE LINK****** -->
+	<script type="text/javascript">
+		function aboutPage() {
+			window.location.href="AboutPage.html";
+		}
+	</script>
+
+
+	<script type="text/javascript">
+		function contactPage() {
+			window.location.href="ContactPage.html";
+		}
+	</script>
+
+
+<div class="outside">	
+<div class="Heading">
+<h1>Contact</h1>
+</div>
+
+<div class="stuff"><p>Addy's Custom Detail</p></div>
+
+	<table>
+		<tr>
+			<td>
+				<input type="button" class="buttons" value="Home" name="" onclick="homePage()">
+			</td>
+
+			<td>
+				<input type="button" class="buttons" value="About" name="" onclick="aboutPage()">
+			</td>
+
+			<td>
+				<input type="button" class="buttons" value="Gallery" name="" onclick="galleryPage()">
+			</td>
+			<td>
+				<input type="button" class="buttons" value="Contact" name="" onclick="contactPage()">
+			</td>
+		</tr>
+	</table>
+
+	<div class="inside">
+		<h1> Professional detailing in the Enumclaw area </h1>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="bottom">
+	<h1>Call or email for a free estimate!</h1>
+</div>
+
+<div class="bottombottom">
+			<img src="Pictures/Map.png"> 
+</div>
+
+<div class="contact-info">
+	<p>Josh Adderson		<br>
+		Phone: 111-111-1111 <br>
+		Email: something@yahoo.com <br>
+	</p>
+</div>
+
+
+
+</body>
+</html>

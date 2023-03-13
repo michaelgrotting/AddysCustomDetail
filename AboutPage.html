@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+        
+    body {
+        margin: 0;
+        height: 1000px;
+        resize: both;
+    }
+
+
+    .Heading {font-family: 'Brush Script MT';
+        color: #ed9d07;
+        text-align: center;
+        background-color: rgba(0, 0, 0, .3);
+        font-weight: 100;
+        width: 100%;
+        margin-bottom: 0px;
+        font-size: 25px;
+        position: absolute;
+        top: 0px;
+        letter-spacing: 6px;
+        text-decoration-line: underline;
+        }
+
+    .stuff p {
+        text-decoration-line: underline;
+        font-family: 'Brush Script MT';
+        font-size: 35px;
+        text-align: left;
+        left: 35px;
+        bottom: 100px;
+        position: relative;
+        color: orange;
+        width: 262px;
+        border-style: solid;
+        border-color: orange;
+        border-radius: 10%;
+        background-color: none;
+    }
+
+        .outside {
+        color: white;
+        text-align: center;
+        background-image: url('Pictures/car4.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+
+    /* --------------------For buttons-------------------- */
+    .buttons {
+        font-size: 26px;
+        font-family: 'Arial';
+        color: white;
+        position: center;
+        height: 30px;
+        padding: none;
+        border: none;
+        background: none;
+    }
+
+    .buttons:hover {
+        cursor: pointer;
+    }
+
+    table {
+        margin: auto;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    td {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .outside table {
+        position: relative;
+        bottom: 135px;
+        left: 600px;
+    }
+
+    /* --------------------For bar-------------------- */
+
+    .bar {
+        
+    }
+
+    .services a {
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+    }
+
+
+    /* --------------------For services-------------------- */
+
+    .bottombottom {
+        background-color: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottombottom img{
+        height: 400px;
+        width: 500px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: orange;
+    }
+
+    .label {
+        text-align: left;
+    }
+
+    .label2 {
+        text-align: right;
+    }
+
+    figcaption {
+        font-size: 22px;
+        font-family: 'Arial';
+        color: white;
+        background-color: none;
+        margin-bottom: 35px;
+    }
+
+    .pictable {
+        background-color: lightgray;
+        margin: 0;
+        width: 100%;
+    }
+
+    .row1 {
+        background-color: rgb(100, 100, 100);
+        
+                background-image: url('Pictures/background5.jpg');
+    }
+
+    .row2 {
+        background-color: rgb(255, 255, 255);
+      
+                background-image: url('Pictures/pattern2.jpg');
+    }
+
+    .list {
+        text-align: center left;
+        list-style-position: inside;
+        padding-left: 0;
+        display: inline-block;
+    }
+
+    #header {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 3px;
+
+    }
+
+    #header2 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 3px;
+
+    }
+
+    #interior {
+        position: relative;
+        bottom: 63px;
+
+    }
+
+    #caption {
+        margin-top: 25px;
+        color: black;
+    }
+
+    #caption2 {
+        margin-top: 25px;
+        color: black;
+    }
+
+    #caption3 {
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    } 
+
+    #caption4 {
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+</style>
+
+
+<body>
+
+        <!-- Home page link script -->
+    <script type="text/javascript">
+        function homePage() {
+            window.location.href="HomePage.html";
+        }
+    </script>
+
+
+    <!-- Contact page link script  ******CHANGE LINK****** -->
+    <script type="text/javascript">
+        function galleryPage() {
+            window.location.href="GalleryPage.html";
+        }
+    </script>
+
+    
+
+    <!-- About page link script  ******CHANGE LINK****** -->
+    <script type="text/javascript">
+        function aboutPage() {
+            window.location.href="AboutPage.html";
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        function contactPage() {
+            window.location.href="ContactPage.html";
+        }
+    </script>
+
+
+
+<div class="outside">   
+    <div class="Heading">
+    <h1>About</h1>
+    </div>
+
+    <div class="stuff">
+        <p>Addy's Custom Detail</p>
+    </div>
+
+        <table>
+            <tr>
+                <td>
+                    <input type="button" class="buttons" value="Home" name="" onclick="homePage()">
+                </td>
+
+                <td>
+                    <input type="button" class="buttons" value="About" name="" onclick="aboutPage()">
+                </td>
+
+                <td>
+                    <input type="button" class="buttons" value="Gallery" name="" onclick="galleryPage()">
+                </td>
+                <td>
+                    <input type="button" class="buttons" value="Contact" name="" onclick="contactPage()">
+                </td>
+            </tr>
+        </table>
+
+</div>
+
+
+
+
+<div class="bottombottom">
+    <table class="pictable">
+        <tr class="row1">
+            <td>
+                <figure class="abc">
+                    <img class="tablepic" src="Pictures/Car1small.jpeg">
+                    <figcaption id="caption3">Full Exterior Detail</figcaption>
+                </figure>
+            </td>
+            <td id="blah">
+                <figure>
+                    <img src="Pictures/interior.jpeg">
+                    <figcaption id="caption4">Full Interior Detail</figcaption>
+                </figure>
+            </td>
+        </tr>
+        <tr class="row2">
+            <td>
+                <figure>
+                    <img class="tablepic" src="Pictures/Car3.jpeg">
+                    <figcaption id="caption"><span id="header">Exterior:</span> <br>
+                        <ul class="list">
+                            <li>
+                                Wash
+                            </li>
+                            <li>
+                                Wax
+                            </li>
+                            <li>
+                                Clay Bar
+                            </li>
+                            <li>
+                                Paint Decontamination
+                            </li>
+                            <li>
+                                Paint Correction
+                            </li>
+                            <li>
+                                Polishing
+                            </li>
+                            <li>
+                                Ceramic Coating
+                            </li>
+                            <li>
+                                Metal Polishing
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure id="interior">
+                    <img src="Pictures/interior2.jpeg">
+                    <figcaption id="caption2"><span id="header2">Interior:</span> <br>
+                        <ul class="list">
+                            <li>
+                                Clean & Disinfect
+                            </li>
+                            <li>
+                                Shampoo
+                            </li>
+                            <li>
+                                Pet Hair Removal
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+</html>

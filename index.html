@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Addy's Custom Detailing</title>
+</head>
+<style>
+	body {
+		margin: 0;
+	}
+
+
+	.Heading {font-family: 'Brush Script MT';
+		color: orange;
+		text-decoration-line: underline;
+		text-align: center;
+		background-color: rgba(161, 161, 161, .5);
+		font-weight: 100;
+		width: 100%;
+		margin-bottom: 0px;
+		font-size: 25px;
+		position: absolute;
+		top: 0px;
+		}
+
+
+
+	 /* --------------------This is for the text inside of the picture-------------------- */
+	.outside {
+		color: white;
+		text-align: center;
+		background-image: url('Pictures/background3.jpeg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 250px;
+		padding-bottom: 250px;
+	}
+
+	.inside {
+		position: relative;
+		top: 35px;
+	}
+
+	.inside p {
+		font-size: 20px;
+	}
+
+	/* --------------------For buttons-------------------- */
+	.buttons {
+		font-size: 26px;
+		font-family: 'Arial';
+		color: white;
+		position: center;
+		height: 30px;
+		padding: none;
+		border: none;
+		background: none;
+	}
+
+	.buttons:hover {
+		cursor: pointer;
+	}
+
+	table {
+		margin: auto;
+		margin-bottom: 0px;
+		padding-top: 0px;
+	}
+
+	td {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.outside table {
+		position: relative;
+		bottom: 165px;
+		left: 600px;
+	}
+
+
+
+	/* --------------------For bottom part of page-------------------- */
+	.bottom {
+		background-color: dimgray;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		margin: 0;
+		text-align: center;
+		color: white;
+		font-size: 30px;
+		background-image: url('Pictures/pattern.png');
+	}
+
+
+
+
+	/* --------------------For under bottom part of page-------------------- */
+	.bottombottom {
+		background-color: none;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bottombottom img{
+		height: 400px;
+		width: 500px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 50px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: orange;
+	}
+
+	.label {
+		text-align: left;
+	}
+
+	.label2 {
+		text-align: right;
+	}
+
+	figcaption {
+		font-size: 22px;
+		font-family: 'Arial';
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+		background-color: lightgray;
+		margin-bottom: 35px;
+	}
+
+	#last {
+		text-align: center;
+		background-color: black;
+		color: white;'
+	}
+
+
+
+</style>
+
+
+
+<body>
+
+
+
+
+
+
+	<!-- Home page link script -->
+	<script type="text/javascript">
+		function homePage() {
+			window.location.href="HomePage.html";
+		}
+	</script>
+
+
+	<!-- Contact page link script  ******CHANGE LINK****** -->
+	<script type="text/javascript">
+		function galleryPage() {
+			window.location.href="GalleryPage.html";
+		}
+	</script>
+
+	
+
+	<!-- About page link script  ******CHANGE LINK****** -->
+	<script type="text/javascript">
+		function aboutPage() {
+			window.location.href="AboutPage.html";
+		}
+	</script>
+
+
+	<script type="text/javascript">
+		function contactPage() {
+			window.location.href="ContactPage.html";
+		}
+	</script>
+
+
+
+
+
+<div class="outside">
+	
+<div class="Heading">
+<h1>Addy's Custom Detail</h1>
+
+</div>
+
+	<table>
+		<tr>
+			<td>
+				<input type="button" class="buttons" value="Home" name="" onclick="homePage()">
+			</td>
+
+			<td>
+				<input type="button" class="buttons" value="About" name="" onclick="aboutPage()">
+			</td>
+
+			<td>
+				<input type="button" class="buttons" value="Gallery" name="" onclick="galleryPage()">
+			</td>
+			<td>
+				<input type="button" class="buttons" value="Contact" name="" onclick="contactPage()">
+			</td>
+		</tr>
+	</table>
+
+	<div class="inside">
+		<h1> Professional detailing in the Enumclaw area </h1>
+	</div>
+
+</div>
+
+
+<div class="bottom">
+	<p>Interior and exterior detailing done professionally by hand. <br>
+		Prices vary by type of vehicle and services needed.
+	</p>
+</div>
+
+<div class="bottombottom">
+	<table class="pictable">
+		<tr>
+			<td>
+				<figure>
+					<img class="tablepic" src="Pictures/Car1small.jpeg">
+					<figcaption>Full Exterior Detail</figcaption>
+				</figure>
+			</td>
+			<td>
+				<figure>
+					<img src="Pictures/interior.jpeg">
+					<figcaption>Full Interior Detail</figcaption>
+				</figure>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<h1 id="last">See About page for more services and pricing info</h1>
+
+
+</body>
+</html>
