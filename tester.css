@@ -1,0 +1,113 @@
+body {
+		margin: 0;
+		height: 1000px;
+		resize: both;
+		background-color: black;
+	}
+
+
+	.Heading {font-family: 'Brush Script MT';
+		color: #ed9d07;
+		text-align: center;
+		background-color: rgba(255, 255, 255, .2);
+		font-weight: 100;
+		width: 100%;
+		margin-bottom: 0px;
+		font-size: 25px;
+		position: absolute;
+		top: 0px;
+		letter-spacing: 7px;
+		text-decoration-line: underline;
+		}
+
+	.stuff p {
+		text-decoration-line: underline;
+		font-family: 'Brush Script MT';
+		font-size: 35px;
+		text-align: left;
+		left: 35px;
+		position: relative;
+		color: orange;
+		width: 262px;
+		border-style: solid;
+		border-color: orange;
+		border-radius: 10%;
+		background-color: none;
+	}
+
+
+	/* --------------------For buttons-------------------- */
+	.buttons {
+		font-size: 26px;
+		font-family: 'Arial';
+		color: white;
+		position: center;
+		height: 30px;
+		padding: none;
+		border: none;
+		background: none;
+	}
+
+	.buttons:hover {
+		cursor: pointer;
+	}
+
+	table {
+		margin: auto;
+		margin-bottom: 0px;
+		padding-top: 0px;
+	}
+
+	td {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.outside table {
+		position: relative;
+		bottom: 35px;
+		left: 600px;
+	}
+
+	/* --------------------For Pictures-------------------- */
+		.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	justify-content: center;
+	}
+
+	.column {
+		flex: 25%;
+		max-width: 25%;
+		padding: 0 4px;
+	}
+
+	.column img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+		border-radius: 5px;
+	}
+
+	@media screen and (max-width: 800px) {
+		.column {
+			flex: 50%;
+			max-width: 50%;
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		.column {
+			flex: 100%;
+			max-width: 100%;
+		}
+	}
+
+	.row img:hover {
+		transform: scale(1.01);
+		opacity: 92%;
+		transition: 0.5s;
+	}
+
+
